@@ -1,5 +1,6 @@
 export interface WeatherState { 
     citiesList :any[],
-    result : any,
-    activeCity : String
+    currentClimate : any,
+    activeCity : String,
+    previousDaysClimate :  any[]
 }
